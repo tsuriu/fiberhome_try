@@ -1,9 +1,9 @@
 const fh = require('snmp-fiberhome');
 
 const options = {
-    //ip: '10.56.128.174',
+    ip: '10.56.128.174',
     //ip: '10.56.128.170',
-    ip: '10.2.218.18',
+    //ip: '10.2.218.18',
     community: 'adsl',
     port: 161,
     trapPort: 162,
